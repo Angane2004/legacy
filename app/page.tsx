@@ -303,7 +303,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center">
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setDarkMode(!darkMode)}
@@ -318,7 +318,7 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                   </svg>
                 )}
-              </motion.button>
+              </motion.button> */}
               {user ? (
                 <div className="ml-4 flex items-center md:ml-6">
                   <div className="ml-3 relative">
